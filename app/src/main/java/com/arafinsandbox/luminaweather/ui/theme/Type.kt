@@ -30,6 +30,53 @@ val Typography = Typography(
         letterSpacing = 0.15.sp
     ),
 
+    // Headline Section
+    headlineSmall = TextStyle(
+        fontFamily = luminaWeatherTypeface,
+        fontWeight = FontWeight.Bold,
+        fontSize = 18.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.15.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = luminaWeatherTypeface,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.15.sp
+    ),
+    headlineLarge = TextStyle(
+        fontFamily = luminaWeatherTypeface,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.15.sp
+    ),
+
+    // Label Section
+    labelSmall = TextStyle(
+        fontFamily = luminaWeatherTypeface,
+        fontWeight = FontWeight.Light,
+        fontSize = 12.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.15.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = luminaWeatherTypeface,
+        fontWeight = FontWeight.Light,
+        fontSize = 14.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.15.sp
+    ),
+    labelLarge = TextStyle(
+        fontFamily = luminaWeatherTypeface,
+        fontWeight = FontWeight.Light,
+        fontSize = 16.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.15.sp
+    ),
+
+
     /* Other default text styles to override
     titleLarge = TextStyle(
         fontFamily = FontFamily.Default,
